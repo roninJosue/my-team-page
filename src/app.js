@@ -2,8 +2,10 @@
 
 import './sass/main.scss';
 
-import teamImages from './partials/team-images.handlebars';
+import templateTeamImages from './partials/team-images.handlebars';
 import teamInfo from './teams.json'
+
+// Figure out how to dynamically import all images
 import './static/img/photo1.png'
 import './static/img/photo2.png'
 import './static/img/photo3.png'
@@ -14,4 +16,4 @@ import './static/img/photo6.png'
 
 const containerImg = document.getElementById('teams-members');
 
-containerImg.innerHTML = teamImages(teamInfo);
+containerImg.innerHTML = templateTeamImages(teamInfo);

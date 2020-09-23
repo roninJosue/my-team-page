@@ -59,3 +59,61 @@
       transform: translate3d(4px, 0, 0);
     }
   }
+
+  @keyframes moveName {
+    0% {
+      color: #fff;
+      top: 100%;
+      left: 0;
+    }
+
+    25% {
+      top: 85%;
+      left: 15%;
+    }
+
+    50% {
+      top: 75%;
+      left: 25%;
+    }
+
+    75% {
+      top: 65%;
+      left: 35%;
+    }
+
+    100% {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @keyframes moveNameIn {
+    0% {
+      //color: #fff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);  
+    }
+
+    25% {
+      top: 65%;
+      left: 35%;
+    }
+
+    50% {
+      top: 75%;
+      left: 25%;
+    }
+
+    75% {
+      top: 85%;
+      left: 15%;
+    }
+
+    100% {
+      top: 100%;
+      left: 0;
+    }
+  }

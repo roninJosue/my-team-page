@@ -26,7 +26,7 @@ module.exports = {
                     process.env.NODE_ENV === 'production' 
                         ? 'style-loader' 
                         : MiniCssExtractPlugin.loader,
-                    'css-loader',
+                    'css-loader?url=false',
                     'sass-loader',
                 ],
             },

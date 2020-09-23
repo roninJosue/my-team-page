@@ -1,8 +1,8 @@
 {
-  "name": "sass-webpack-boilerplate",
+  "name": "my-team-page",
   "version": "1.0.0",
-  "description": "Boilerplate for sass + webpack",
-  "repository": "https://github.com/roninJosue/sass-webpack-boilerplate.git",
+  "description": "My Team Page Challange",
+  "repository": "https://github.com/roninJosue/my-team-page.git",
   "author": "roninJosue",
   "license": "MIT",
   "devDependencies": {
